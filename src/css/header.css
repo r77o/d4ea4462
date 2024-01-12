@@ -25,6 +25,7 @@ header ul {
 
 header li span {
   display: block;
+  cursor: pointer;
   color: black;
   font-weight: 800;
   text-align: center;

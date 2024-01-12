@@ -87,6 +87,7 @@
   margin: -5px 26px 10px 11px;
   background-color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .archive-text{
