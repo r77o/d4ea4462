@@ -1,0 +1,52 @@
+footer {
+  height: 40px;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  /* position: fixed; */
+  width: 376px;
+  /* bottom: 32px; */
+  border-top: 1px solid #ccc
+}
+
+/* ##################################### */
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* top: 0; */
+  width: 100%;
+}
+
+
+footer li span {
+  display: block;
+  color: black;
+  font-weight: 800;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+img.dialpad {
+  z-index: 1;
+  margin-top: -71px;
+  position: fixed;
+  margin-left: -52px;
+}
+
+img.record {
+  margin-top: -17px;
+}
+
+span.footer-tab {
+  border-bottom: 4px solid green;
+  height: 17.75px;
+}

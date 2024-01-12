@@ -1,0 +1,109 @@
+#app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#app .container {
+  width: 376px;
+  height: 666px;
+  z-index: 100;
+  background: rgb(250, 250, 250);
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+  display: flex;
+  flex-direction: column;
+}
+
+#app .container-view {
+  padding: 135px 5px 5px 5px;
+}
+
+/* ################################################# */
+/* CallLogList.css */
+.call-log-list {
+  padding: 10px;
+  overflow: auto;
+  height: 73%;
+}
+
+.call-log-entry {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  padding: 14px;
+  background-color: white;
+}
+
+.call-log-details {
+  flex-grow: 1;
+  display: flex;
+}
+
+.caller-name {
+  font-weight: bold;
+}
+
+.call-log-actions span {
+  color: black;
+  border: none;
+  font-weight: lighter;
+  opacity: 0.4;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+
+.call-log-list ul {
+  list-style-type: none;
+}
+
+.call-time {
+  font-weight: lighter;
+  margin-top: 2px;
+  opacity: 0.5;
+}
+
+.call-status {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.archive-block {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  z-index: -1;
+  margin: -5px 26px 10px 11px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.archive-text{
+ margin-left: 16px;
+}
+
+.dotted-line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  opacity: 0.4;
+}
+
+.dotted-line::before,.dotted-line::after {
+  content: "";
+  flex: 1;
+  border-top: 1px dotted #000;
+  margin: 0 10px;
+}
