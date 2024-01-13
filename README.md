@@ -16,4 +16,3 @@ npm start
 
 ### Note
 - There seems to be an issue with the `API` for `archiving` and `un-archiving` as a few **Call-IDs** were giving a ***404 Error***.
-- A feature for archiving and unarchiving individual calls will also be in place by **13-Jan-2024 11PM IST**
